@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: alpha
+  application:
+    name: payment-service
+  lifecycle:
+    timeout-per-shutdown-phase: "90s"

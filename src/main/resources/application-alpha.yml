@@ -1,0 +1,14 @@
+redis:
+  host: localhost
+  port: 6379
+  password:
+  database:
+    index: 8
+  pool:
+    max:
+      connection: 30
+      idle:
+        connection: 10
+    min:
+      idle:
+        connection: 0
